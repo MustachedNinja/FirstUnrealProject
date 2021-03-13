@@ -1,0 +1,57 @@
+[
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\BatteryMan.cpp",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\BatteryMan.h",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\BatteryMan_GameMode.cpp",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\BatteryMan_GameMode.h",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProject.Build.cs",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProject.cpp",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProject.h",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProjectCharacter.cpp",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProjectCharacter.h",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProjectGameMode.cpp",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	},
+	{
+		"file": "C:\\\\Users\\\\kosty\\\\Documents\\\\Unreal Projects\\\\FirstProject\\\\Source\\\\FirstProject\\\\FirstProjectGameMode.h",
+		"command": "cl.exe @\"C:\\Users\\kosty\\Documents\\Unreal Projects\\FirstProject\\.vscode\\compileCommands_FirstProject\\FirstProject.182.rsp\"",
+		"directory": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Source"
+	}
+]
