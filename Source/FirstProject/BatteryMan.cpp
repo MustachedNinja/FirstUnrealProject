@@ -31,19 +31,27 @@ ABatteryMan::ABatteryMan()
 	FollowCamera->bUsePawnControlRotation = false;
 
 	bDead = false;
+	Power = 100.0f;
 }
 
 // Called when the game starts or when spawned
 void ABatteryMan::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &ABatteryMan::OnBeginOverlap);
+
+	if (Player_Power_Widget_Class != nullptr) {
+		Player_Power_Widget = CreateWidget(GetWorld(), Player_Power_Widget_Class);
+		Player_Power_Widget->AddToViewport();
+	}
 }
 
 // Called every frame
 void ABatteryMan::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	Power -= DeltaTime * Power_Threshold;
 
 }
 
@@ -79,5 +87,20 @@ void ABatteryMan::MoveRight(float Axis) {
 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		AddMovementInput(Direction, Axis);
+	}
+}
+
+void ABatteryMan::OnBeginOverlap(UPrimitiveComponent* HitComponent, 
+	AActor* OtherActor, 
+	UPrimitiveComponent* OtherComp, 
+	int32 OtherBodyIndex, 
+	bool bFromSweep, 
+	const FHitResult& SweepResult) {
+	if (OtherActor->ActorHasTag("Recharge")) {
+		Power += 10.0f;
+		if (Power > 100.0f) {
+			Power = 100.0f;
+		}
+		OtherActor->Destroy();
 	}
 }
