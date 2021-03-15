@@ -53,6 +53,16 @@ void ABatteryMan::Tick(float DeltaTime)
 
 	Power -= DeltaTime * Power_Threshold;
 
+	if (Power <= 0) {
+		if (!bDead) {
+			bDead = true;
+
+			GetMesh()->SetSimulatePhysics(true);
+
+			FTimerHandle UnusedHandle;
+			GetWorldTimerManager().SetTimer(UnusedHandle, this, &ABatteryMan::RestartGame, 3.0f, false);
+		}
+	}
 }
 
 // Called to bind functionality to input
@@ -103,4 +113,8 @@ void ABatteryMan::OnBeginOverlap(UPrimitiveComponent* HitComponent,
 		}
 		OtherActor->Destroy();
 	}
+}
+
+void ABatteryMan::RestartGame() {
+	UGameplayStatics::OpenLevel(this, FName(*GetWorld()->GetName()), false);
 }
